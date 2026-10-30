@@ -1,0 +1,10 @@
+{
+  "id": "tome-sync",
+  "name": "Tome Sync",
+  "version": "0.1.0",
+  "minAppVersion": "1.8.7",
+  "description": "Sync this vault both ways with a Tome knowledge base, signed in with your studio's Grimoire account.",
+  "author": "Team Noto",
+  "isDesktopOnly": false,
+  "authorUrl": "https://noto.gg"
+}

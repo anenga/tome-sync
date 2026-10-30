@@ -1,0 +1,12 @@
+/* Tome Sync */
+.tome-sync-status { cursor: pointer; }
+.tome-sync-spinning svg { animation: tome-sync-spin 1.2s linear infinite; }
+@keyframes tome-sync-spin { to { transform: rotate(360deg); } }
+.tome-sync-status-box { padding: 4px 0 8px; }
+.tome-sync-line { display: flex; gap: 8px; align-items: flex-start; color: var(--text-muted); }
+.tome-sync-line svg { width: 16px; height: 16px; flex: none; margin-top: 2px; }
+.tome-sync-status-box details { margin-top: 8px; }
+.tome-sync-status-box summary { cursor: pointer; color: var(--text-normal); }
+.tome-sync-status-box ul { margin: 4px 0 0; padding-left: 20px; font-size: var(--font-ui-smaller); color: var(--text-muted); max-height: 240px; overflow-y: auto; word-break: break-word; }
+.tome-sync-code { width: 100%; font-family: var(--font-monospace); font-size: var(--font-ui-smaller); }
+.tome-sync-notice-button { margin-top: 8px; }

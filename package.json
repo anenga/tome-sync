@@ -1,0 +1,24 @@
+{
+  "name": "tome-sync",
+  "version": "0.1.0",
+  "description": "Obsidian plugin: two-way sync between an Obsidian vault and a Tome vault, signed in with Grimoire",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "esbuild": "^0.28.2",
+    "obsidian": "^1.14.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  },
+  "dependencies": {
+    "node-diff3": "^3.2.1"
+  },
+  "license": "MIT",
+  "repository": "github:anenga/tome-sync"
+}
